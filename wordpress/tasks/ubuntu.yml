@@ -1,0 +1,24 @@
+---
+# tasks file for wordpress
+- name: Update Sytem
+  ansible.builtin.apt:
+    update_cache: true
+
+- name: Upgrade System
+  ansible.builtin.apt:
+    upgrade: dist
+
+- name: Install Required Dependencies
+
+- name: Install PHP
+
+- name: Install NGINX
+  ansible.builtin.apt:
+    name: nginx
+
+- name: Install MySQL
+
+- name: Download Wordpress Package
+
+- name: Database Initialization for WordPress
+
